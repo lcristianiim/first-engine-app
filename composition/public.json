@@ -1,33 +1,28 @@
 {
-  "client": {
-    "load": [
-    ],
-    "config": {
-      "title": "jxApp",
-      "template": {
-        "to": "body",
-        "html": "/public.html",
-        "render": true,
-        "pages": true
-      },
-      "states": {
-      },
-    "html": [],
-    "css": [],
-    "extFlow": [
-    ],
-    "flow": [
-    ],
-    "markup": [
-      "/public.html"
-    ],
-    "styles": [
-    ]
+    "client": {
+        "load": [],
+        "config": {
+            "title": "jxApp",
+            "template": {
+                "to": "body",
+                "html": "/public.html",
+                "render": true,
+                "pages": true
+            },
+            "states": {}
+        },
+        "html": [],
+        "css": [],
+        "extFlow": [],
+        "flow": [],
+        "markup": [
+            "/public.html"
+        ],
+        "styles": []
     },
-  "roles": {
-    "*": true
-  },
-  "name": "public",
-  "module": "view"
-  }
+    "roles": {
+        "*": true
+    },
+    "name": "public",
+    "module": "view"
 }
