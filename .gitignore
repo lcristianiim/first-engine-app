@@ -1,0 +1,11 @@
+/node_modules
+/modules
+log.txt
+*~
+*.swp
+.DS_Store
+engine_log.txt
+*.log
+instructions
+.service.json
+.sass-cache
