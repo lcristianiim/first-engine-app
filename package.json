@@ -1,0 +1,56 @@
+{
+    "name": "first-engine-app",
+    "version": "0.1.0",
+    "author": "lcristainiim <lcristianiim@yahoo.com",
+    "description": "Demonstrative app",
+    "contributors": [
+        "Szabo Cristian Marcel <lcristianiim@yahoo.com>"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lcristianiim/first-engine-app.git"
+    },
+    "keywords": [
+        "jillix",
+        "webapp",
+        "web application",
+        "cloud engine",
+        "webapp engine"
+    ],
+    "dependencies": {
+        "fs-extra":             "0.12.0",
+        "jxutils":              "0.1.5",
+        "ul":                   "2.1.0",
+        "jsdoc":                "3.3.0-alpha13",
+        "view":                 "adioo/view",
+        "data":                 "adioo/data",
+        "login":                "adioo/login",
+        "engine-editor":        "jillix/editor",
+        "term":                 "jillix/engine-terminal",
+        "engine-sidebar":       "jillix/engine-sidebar",
+        "engine-file-uploader": "jillix/engine-file-uploader",
+        "engine-tree":          "jillix/engine-tree",
+        "engine-fs":            "jillix/engine-fs",
+        "engine-keypress":      "jillix/engine-keypress",
+        "engine-form":          "jillix/engine-form",
+        "engine-mongodb":       "jillix/engine-mongodb",
+        "engine-jq":            "jillix/engine-jq",
+        "engine-notifications": "jillix/engine-notifications",
+        "engine-list":          "jillix/engine-list",
+        "builder":              "jillix/builder.git",
+        "jxservice-api":        "jillix/jxservice-api.git"
+    },
+    "engine": {
+        "node": ">=0.10"
+    },
+    "bugs": {
+        "url": "https://github.com/lcristianiim/first-engine-app/issues"
+    },
+    "homepage": "https://github.com/lcristianiim/first-engine-app",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "install": "scripts/bash/ask_for_root_credentials.sh"
+    }
+}
